@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsolePractice
 {
-    public class T1
+    public static class T1
     {
-        private string name = "zahid";
+        private static string name = "zahid";
 
-        public string Name 
+        public static string Name 
         {
             get { return name; }
             set { name = value; } 

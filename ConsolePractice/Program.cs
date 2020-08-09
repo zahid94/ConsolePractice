@@ -10,8 +10,8 @@ namespace ConsolePractice
     {
         static void Main(string[] args)
         {
-            T1 t1 = new T1();
-            Console.WriteLine(t1.Name);
+            
+            Console.WriteLine(T1.Name);
         }
     }
 }
